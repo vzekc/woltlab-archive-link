@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/page.xsd">
+	<import>
+		<!-- menu items linking here show only for users with this permission (MenuItem::isVisible checks Page::isVisible) -->
+		<page identifier="de.classic-computing.archive-link.Archive">
+			<pageType>system</pageType>
+			<controller>wcf\page\VzekcArchiveRedirectPage</controller>
+			<name language="de">Archiv</name>
+			<name language="en">Archive</name>
+			<permissions>user.archive.canAccess</permissions>
+			<excludeFromLandingPage>1</excludeFromLandingPage>
+			<content language="de"><title>Archiv</title></content>
+			<content language="en"><title>Archive</title></content>
+		</page>
+	</import>
+</data>
